@@ -37,7 +37,6 @@ def cyber_news():
         article_link_click = True
 
 def cve():
-
     content = requests.get('https://cve.circl.lu/api/last')
     json = content.json()
 
