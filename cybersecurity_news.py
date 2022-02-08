@@ -2,7 +2,6 @@ from calendar import c
 import feedparser
 import webbrowser
 import requests
-import json
 
 def cyber_news():
     print('--Security News Website List--')
